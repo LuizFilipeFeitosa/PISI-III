@@ -1,8 +1,12 @@
+<div align= "center">
+  
 # EDA — Dataset AOTY (Album of the Year)
 
 Análise exploratória de dados do Top 5.000 álbuns mais bem avaliados do
 [AOTY](https://www.albumoftheyear.org), feita para a materia de **PISI-III**.
 
+<div align= "left">
+  
 ## 1. Dataset
 
 Arquivo: `aoty.csv` — 5000 álbuns, sem nenhum valor ausente.
@@ -86,21 +90,6 @@ essa quantidade se distribui.
 - **Viés temporal**: nota bruta favorece obras antigas; considerar
   normalizar por década se a nota for usada como proxy de qualidade.
 
-
-## Estrutura de arquivos
-
-```
-aoty_analise/
-├── tratamento_aoty.py
-├── analise_aoty.py
-├── eda_complementar.py
-└── aoty_tratado/
-    ├── aoty_tratado.csv
-    ├── aoty_tratado_long.csv
-    ├── metadados.json
-    ├── dados_heatmap.json
-    └── eda_complementar.json
-```
 
 ### Como rodar
 
