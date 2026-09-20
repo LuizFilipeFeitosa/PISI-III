@@ -91,13 +91,9 @@ essa quantidade se distribui.
 
 ```
 aoty_analise/
-├── EDA_AOTY.md                  (este documento)
 ├── tratamento_aoty.py
 ├── analise_aoty.py
 ├── eda_complementar.py
-├── graficos_exploratorios.png
-├── heatmap_genero_x_score.png
-├── distribuicoes.png
 └── aoty_tratado/
     ├── aoty_tratado.csv
     ├── aoty_tratado_long.csv
