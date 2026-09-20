@@ -1,0 +1,50 @@
+{
+  "fonte": {
+    "dataset": "Album of the Year - Top 5000",
+    "origem": "AOTY (albumoftheyear.org)",
+    "observacao": "Amostra enviesada para os álbuns mais bem avaliados; não representa todo o catálogo musical."
+  },
+  "dimensoes": {
+    "albuns_originais": 5000,
+    "albuns_tratados": 5000,
+    "linhas_formato_longo_album_genero": 10605,
+    "generos_distintos": 530,
+    "artistas_distintos": 2455
+  },
+  "variaveis": {
+    "user_score": {
+      "tipo": "contínua (0-100)",
+      "descricao": "Nota média dada pelos usuários do AOTY."
+    },
+    "rating_count": {
+      "tipo": "contínua",
+      "descricao": "Quantidade de avaliações recebidas pelo álbum."
+    },
+    "release_year": {
+      "tipo": "ordinal",
+      "descricao": "Ano de lançamento extraído de release_date."
+    },
+    "decade": {
+      "tipo": "ordinal",
+      "descricao": "Década de lançamento (ex: 2010)."
+    },
+    "genero": {
+      "tipo": "categórica (multivalorada)",
+      "descricao": "Um álbum pode pertencer a mais de um gênero; dado 'explodido' em aoty_tratado_long.csv."
+    }
+  },
+  "motivos_do_tratamento": [
+    {
+      "etapa": "Limpeza de rating_count",
+      "motivo": "Converter texto em número para permitir soma/média."
+    },
+    {
+      "etapa": "Extração de ano/década",
+      "motivo": "Permitir agrupar e comparar álbuns ao longo do tempo."
+    },
+    {
+      "etapa": "Explosão de gêneros",
+      "motivo": "Cada álbum pode ter múltiplos gêneros; para analisar por gênero, cada combinação (álbum, gênero) precisa virar uma linha própria."
+    }
+  ]
+}

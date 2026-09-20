@@ -1,0 +1,63 @@
+{
+  "estatisticas_descritivas": {
+    "user_score": {
+      "count": 5000.0,
+      "mean": 80.25,
+      "std": 3.67,
+      "min": 75.0,
+      "25%": 77.0,
+      "50%": 80.0,
+      "75%": 82.0,
+      "max": 95.0
+    },
+    "rating_count": {
+      "count": 5000.0,
+      "mean": 1255.45,
+      "std": 2150.94,
+      "min": 175.0,
+      "25%": 273.0,
+      "50%": 482.0,
+      "75%": 1223.25,
+      "max": 28594.0
+    }
+  },
+  "correlacao_user_score_rating_count": 0.401,
+  "tendencia_por_decada": {
+    "1950": {
+      "nota_media": 80.05,
+      "qtd_albuns": 19
+    },
+    "1960": {
+      "nota_media": 81.65,
+      "qtd_albuns": 139
+    },
+    "1970": {
+      "nota_media": 81.73,
+      "qtd_albuns": 365
+    },
+    "1980": {
+      "nota_media": 80.82,
+      "qtd_albuns": 342
+    },
+    "1990": {
+      "nota_media": 81.76,
+      "qtd_albuns": 677
+    },
+    "2000": {
+      "nota_media": 81.13,
+      "qtd_albuns": 771
+    },
+    "2010": {
+      "nota_media": 79.5,
+      "qtd_albuns": 1535
+    },
+    "2020": {
+      "nota_media": 78.3,
+      "qtd_albuns": 955
+    }
+  },
+  "interpretacao": {
+    "correlacao": "Correlação positiva moderada: álbuns mais avaliados tendem a ter nota um pouco mais alta, mas a relação está longe de ser forte — quantidade de avaliações não é um bom substituto para nota.",
+    "tendencia_temporal": "A nota média cai nas décadas mais recentes (2010: 79.5; 2020: 78.3) frente a décadas anteriores (~81-82). Álbuns antigos que chegaram ao top 5000 já passaram por um filtro de tempo (só os consagrados permanecem bem avaliados); álbuns recentes ainda estão entrando e sendo reavaliados. Relevante para o recomendador: nota bruta favorece obras antigas, pode ser preciso normalizar por época."
+  }
+}

@@ -1,0 +1,368 @@
+{
+  "gerado_em": "2026-09-20T18:32:18.793894",
+  "fonte": {
+    "dataset": "AOTY - Top 5000 álbuns",
+    "origem": "albumoftheyear.org"
+  },
+  "total_registros_album_genero": 10605,
+  "heatmap_genero_x_faixa_score": {
+    "linhas": [
+      {
+        "codigo": "Singer-Songwriter",
+        "label": "Singer-Songwriter"
+      },
+      {
+        "codigo": "Indie Rock",
+        "label": "Indie Rock"
+      },
+      {
+        "codigo": "Art Pop",
+        "label": "Art Pop"
+      },
+      {
+        "codigo": "Alternative Rock",
+        "label": "Alternative Rock"
+      },
+      {
+        "codigo": "East Coast Hip Hop",
+        "label": "East Coast Hip Hop"
+      },
+      {
+        "codigo": "Indie Pop",
+        "label": "Indie Pop"
+      },
+      {
+        "codigo": "Pop Rock",
+        "label": "Pop Rock"
+      },
+      {
+        "codigo": "Art Rock",
+        "label": "Art Rock"
+      },
+      {
+        "codigo": "Synthpop",
+        "label": "Synthpop"
+      },
+      {
+        "codigo": "Neo-Psychedelia",
+        "label": "Neo-Psychedelia"
+      },
+      {
+        "codigo": "Dream Pop",
+        "label": "Dream Pop"
+      },
+      {
+        "codigo": "Conscious Hip Hop",
+        "label": "Conscious Hip Hop"
+      },
+      {
+        "codigo": "Contemporary R&B",
+        "label": "Contemporary R&B"
+      },
+      {
+        "codigo": "Post-Punk",
+        "label": "Post-Punk"
+      },
+      {
+        "codigo": "Abstract Hip Hop",
+        "label": "Abstract Hip Hop"
+      }
+    ],
+    "colunas": [
+      {
+        "codigo": "75-80",
+        "label": "75-80"
+      },
+      {
+        "codigo": "80-85",
+        "label": "80-85"
+      },
+      {
+        "codigo": "85-90",
+        "label": "85-90"
+      },
+      {
+        "codigo": "90-95",
+        "label": "90-95"
+      }
+    ],
+    "valores": [
+      [
+        220,
+        152,
+        52,
+        3
+      ],
+      [
+        254,
+        108,
+        15,
+        0
+      ],
+      [
+        170,
+        81,
+        25,
+        2
+      ],
+      [
+        154,
+        80,
+        18,
+        4
+      ],
+      [
+        119,
+        82,
+        26,
+        3
+      ],
+      [
+        144,
+        40,
+        6,
+        0
+      ],
+      [
+        109,
+        56,
+        11,
+        3
+      ],
+      [
+        76,
+        54,
+        30,
+        6
+      ],
+      [
+        115,
+        42,
+        4,
+        0
+      ],
+      [
+        83,
+        54,
+        6,
+        1
+      ],
+      [
+        81,
+        50,
+        10,
+        1
+      ],
+      [
+        63,
+        54,
+        22,
+        2
+      ],
+      [
+        103,
+        25,
+        7,
+        1
+      ],
+      [
+        79,
+        46,
+        7,
+        1
+      ],
+      [
+        71,
+        42,
+        10,
+        1
+      ]
+    ],
+    "nota_media_por_celula": [
+      [
+        77.86,
+        82.53,
+        87.37,
+        91.33
+      ],
+      [
+        77.69,
+        82.47,
+        87.2,
+        null
+      ],
+      [
+        77.57,
+        82.51,
+        87.32,
+        92.5
+      ],
+      [
+        77.63,
+        82.49,
+        87.0,
+        92.75
+      ],
+      [
+        77.63,
+        82.72,
+        87.69,
+        92.0
+      ],
+      [
+        77.62,
+        82.1,
+        86.67,
+        null
+      ],
+      [
+        77.81,
+        82.54,
+        87.55,
+        91.67
+      ],
+      [
+        77.97,
+        82.67,
+        87.67,
+        92.67
+      ],
+      [
+        77.4,
+        82.31,
+        87.75,
+        null
+      ],
+      [
+        77.8,
+        82.59,
+        87.0,
+        91.0
+      ],
+      [
+        77.74,
+        82.12,
+        87.2,
+        91.0
+      ],
+      [
+        77.76,
+        82.8,
+        87.73,
+        94.5
+      ],
+      [
+        77.28,
+        82.6,
+        87.29,
+        91.0
+      ],
+      [
+        77.73,
+        82.28,
+        87.86,
+        92.0
+      ],
+      [
+        77.79,
+        82.64,
+        87.5,
+        93.0
+      ]
+    ]
+  },
+  "resumo_por_genero": [
+    {
+      "genero": "Singer-Songwriter",
+      "nota_media": 80.78,
+      "qtd_albuns": 427,
+      "soma_avaliacoes": 502056
+    },
+    {
+      "genero": "Indie Rock",
+      "nota_media": 79.44,
+      "qtd_albuns": 377,
+      "soma_avaliacoes": 405462
+    },
+    {
+      "genero": "Art Pop",
+      "nota_media": 79.99,
+      "qtd_albuns": 278,
+      "soma_avaliacoes": 445474
+    },
+    {
+      "genero": "Alternative Rock",
+      "nota_media": 80.04,
+      "qtd_albuns": 256,
+      "soma_avaliacoes": 376381
+    },
+    {
+      "genero": "East Coast Hip Hop",
+      "nota_media": 80.77,
+      "qtd_albuns": 230,
+      "soma_avaliacoes": 333792
+    },
+    {
+      "genero": "Indie Pop",
+      "nota_media": 78.85,
+      "qtd_albuns": 190,
+      "soma_avaliacoes": 188337
+    },
+    {
+      "genero": "Pop Rock",
+      "nota_media": 80.12,
+      "qtd_albuns": 179,
+      "soma_avaliacoes": 249765
+    },
+    {
+      "genero": "Art Rock",
+      "nota_media": 81.78,
+      "qtd_albuns": 166,
+      "soma_avaliacoes": 381353
+    },
+    {
+      "genero": "Synthpop",
+      "nota_media": 78.94,
+      "qtd_albuns": 161,
+      "soma_avaliacoes": 238517
+    },
+    {
+      "genero": "Neo-Psychedelia",
+      "nota_media": 80.07,
+      "qtd_albuns": 144,
+      "soma_avaliacoes": 206224
+    },
+    {
+      "genero": "Dream Pop",
+      "nota_media": 80.04,
+      "qtd_albuns": 142,
+      "soma_avaliacoes": 151517
+    },
+    {
+      "genero": "Conscious Hip Hop",
+      "nota_media": 81.48,
+      "qtd_albuns": 141,
+      "soma_avaliacoes": 318739
+    },
+    {
+      "genero": "Contemporary R&B",
+      "nota_media": 78.88,
+      "qtd_albuns": 136,
+      "soma_avaliacoes": 215784
+    },
+    {
+      "genero": "Post-Punk",
+      "nota_media": 79.95,
+      "qtd_albuns": 133,
+      "soma_avaliacoes": 155909
+    },
+    {
+      "genero": "Abstract Hip Hop",
+      "nota_media": 80.34,
+      "qtd_albuns": 124,
+      "soma_avaliacoes": 218705
+    }
+  ],
+  "conclusao": "Entre os 15 gêneros mais frequentes do top 5000, Art Rock tem a maior nota média de usuários (81.78), enquanto Indie Pop tem a menor (78.85). Como a amostra já é filtrada para os álbuns mais bem avaliados do site, essas diferenças descrevem posição relativa dentro de um grupo de elite, não a qualidade geral do gênero na música em geral.",
+  "observacao_metodologica": "O valor de cada célula do heatmap é a quantidade de álbuns do gênero naquela faixa de nota (mostra onde a nota dos álbuns de cada gênero se concentra). A nota média por célula também é salva em 'nota_media_por_celula', para contexto."
+}
